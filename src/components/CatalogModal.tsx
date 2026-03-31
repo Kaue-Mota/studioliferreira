@@ -7,7 +7,7 @@ interface Props {
 }
 
 export default function CatalogModal({ item, onClose }: Props) {
-  const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/5588996972432?text=${encodeURIComponent(
     `Olá, tenho interesse no ensaio "${item.nome}" e gostaria de um orçamento.`
   )}`;
 
