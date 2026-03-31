@@ -15,14 +15,14 @@ export default function Location() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <div className="overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1975!2d-46.6544!3d-23.5646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzUyLjYiUyA0NsKwMzknMTUuOCJX!5e0!3m2!1spt-BR!2sbr!4v1"
+               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3958.082768934225!2d-39.3136!3d-7.2314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a17884ef04976f%3A0xf2415309e8d9604b!2sAv.%20N.Senhora%20Aparecida%2C%20700%20-%20Jo%C3%A3o%20Cabral%2C%20Juazeiro%20do%20Norte%20-%20CE%2C%2063051-170!5e0!3m2!1spt-BR!2sbr!4v1774984877517!5m2!1spt-BR!2sbr"
               width="100%"
               height="400"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Localização Lumière Studio"
+              title="Localização Studio Lí Ferreira"
               className="w-full"
             />
           </div>
@@ -33,9 +33,9 @@ export default function Location() {
               <div>
                 <h3 className="font-display text-lg font-medium mb-1">Endereço</h3>
                 <p className="text-muted-foreground font-light leading-relaxed">
-                  Rua Augusta, 1200 — Sala 302<br />
-                  Consolação, São Paulo — SP<br />
-                  CEP 01304-001
+                  Av. N.Senhora Aparecida, <br />
+                  700 - João Cabral, <br />
+                  Juazeiro do Norte - CE, 63051-170
                 </p>
               </div>
             </div>
@@ -45,8 +45,8 @@ export default function Location() {
               <div>
                 <h3 className="font-display text-lg font-medium mb-1">Horário de Funcionamento</h3>
                 <div className="text-muted-foreground font-light space-y-1">
-                  <p>Segunda a Sexta: 9h — 19h</p>
-                  <p>Sábado: 9h — 16h</p>
+                  <p>Terça a Sábado: 8h — 12h</p>
+                  <p>Sábado: Fechado</p>
                   <p>Domingo: Fechado</p>
                 </div>
               </div>

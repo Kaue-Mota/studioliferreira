@@ -5,7 +5,7 @@ export default function Contact() {
   const ref = useScrollReveal<HTMLDivElement>();
 
   const whatsappUrl =
-    "https://wa.me/5511999999999?text=Olá, gostaria de solicitar um orçamento para um ensaio fotográfico.";
+    "https://wa.me/558896972432?text=Olá, gostaria de solicitar um orçamento para um ensaio fotográfico.";
 
   return (
     <section id="contato" className="section-padding bg-secondary">
@@ -26,7 +26,7 @@ export default function Contact() {
             WhatsApp
           </a>
           <a
-            href="https://instagram.com/lumierestudio"
+            href="https://www.instagram.com/studioli_ferreira/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-3 px-10 py-4 border border-foreground text-foreground text-sm font-medium tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300"

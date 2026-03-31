@@ -1,5 +1,5 @@
 import { ChevronDown } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "/images/hero/herobg.jpeg";
 
 export default function Hero() {
   const scrollToPortfolio = () => {
@@ -19,12 +19,12 @@ export default function Hero() {
 
       <div className="relative z-10 text-center px-6 max-w-3xl">
         <h1
-          className="font-display text-4xl md:text-5xl lg:text-7xl font-medium text-primary-foreground leading-tight mb-6 animate-fade-up"
+          className="drop-shadow-lg font-display text-4xl md:text-5xl lg:text-7xl font-medium text-primary-foreground leading-tight mb-6 animate-fade-up"
         >
           Momentos que se tornam eternos
         </h1>
         <p
-          className="font-body text-primary-foreground/80 text-base md:text-lg font-light leading-relaxed mb-10 animate-fade-up"
+          className="drop-shadow-lg font-body text-primary-foreground/80 text-base md:text-lg font-light leading-relaxed mb-10 animate-fade-up"
           style={{ animationDelay: "0.2s" }}
         >
           Capturamos a essência de cada instante com arte, sensibilidade e técnica impecável.
@@ -33,7 +33,7 @@ export default function Hero() {
           href="https://wa.me/5511999999999?text=Olá, gostaria de solicitar um orçamento para um ensaio fotográfico."
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-10 py-4 bg-primary-foreground text-foreground text-sm font-medium tracking-widest uppercase hover:bg-primary-foreground/90 transition-all duration-300 animate-fade-up"
+          className="drop-shadow-lg inline-block px-10 py-4 bg-primary-foreground text-foreground text-sm font-medium tracking-widest uppercase hover:bg-primary-foreground/90 transition-all duration-300 animate-fade-up"
           style={{ animationDelay: "0.4s" }}
         >
           Solicitar Orçamento
@@ -42,7 +42,7 @@ export default function Hero() {
 
       <button
         onClick={scrollToPortfolio}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-primary-foreground/70 animate-bounce-subtle"
+        className="drop-shadow-lg absolute bottom-10 left-1/2 -translate-x-1/2 text-primary-foreground/70 animate-bounce-subtle"
         aria-label="Scroll para baixo"
       >
         <ChevronDown size={32} />

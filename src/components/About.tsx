@@ -11,7 +11,7 @@ export default function About() {
           <div className="overflow-hidden">
             <img
               src={studioImg}
-              alt="Interior do Lumière Studio"
+              alt="Interior do Studio Lí Ferreira"
               loading="lazy"
               width={1280}
               height={960}
@@ -22,7 +22,7 @@ export default function About() {
             <h2 className="section-title mb-6">Sobre o Estúdio</h2>
             <div className="space-y-5 text-muted-foreground font-light leading-relaxed">
               <p>
-                O <strong className="font-medium text-foreground">Lumière Studio</strong> nasceu da paixão por transformar momentos
+                O <strong className="font-medium text-foreground">Studio Lí Ferreira</strong> nasceu da paixão por transformar momentos
                 cotidianos em obras de arte atemporais. Com mais de uma década de experiência,
                 nosso estúdio combina técnica impecável com sensibilidade artística.
               </p>
