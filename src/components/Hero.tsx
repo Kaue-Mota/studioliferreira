@@ -1,5 +1,5 @@
 import { ChevronDown } from "lucide-react";
-import heroBg from "/images/hero/herobg.jpeg";
+import heroBg from "/images/hero/herobg2.jpeg";
 
 export default function Hero() {
   const scrollToPortfolio = () => {
