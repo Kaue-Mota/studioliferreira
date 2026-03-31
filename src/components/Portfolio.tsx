@@ -13,13 +13,24 @@ export default function Portfolio() {
         <div className="text-center mb-16">
           <h2 className="section-title mb-4">Nossos Trabalhos</h2>
           <p className="section-subtitle mx-auto">
-            Cada ensaio é uma história única, contada com luz, emoção e atenção aos detalhes.
+            Cada ensaio é uma história única, contada com luz, emoção e atenção
+            aos detalhes.
           </p>
         </div>
-
+        <div className="text-center py-5 mt-12">
+          <Link
+            to="/catalogo"
+            className="inline-block px-10 py-4 border border-foreground text-foreground text-sm font-medium tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+          >
+            Ver Catálogo Completo
+          </Link>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-1">
           {featured.map((item) => (
-            <div key={item.id} className="relative group overflow-hidden aspect-[4/5]">
+            <div
+              key={item.id}
+              className="relative group overflow-hidden aspect-[4/5]"
+            >
               <img
                 src={item.src}
                 alt={item.nome}
@@ -33,15 +44,6 @@ export default function Portfolio() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="text-center mt-12">
-          <Link
-            to="/catalogo"
-            className="inline-block px-10 py-4 border border-foreground text-foreground text-sm font-medium tracking-widest uppercase hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-          >
-            Ver Catálogo Completo
-          </Link>
         </div>
       </div>
     </section>

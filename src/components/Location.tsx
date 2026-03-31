@@ -46,8 +46,8 @@ export default function Location() {
                 <h3 className="font-display text-lg font-medium mb-1">Horário de Funcionamento</h3>
                 <div className="text-muted-foreground font-light space-y-1">
                   <p>Terça a Sábado: 8h — 12h</p>
-                  <p>Sábado: Fechado</p>
                   <p>Domingo: Fechado</p>
+                  <p>Segunda: Fechado</p>
                 </div>
               </div>
             </div>
